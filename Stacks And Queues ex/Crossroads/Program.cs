@@ -42,7 +42,7 @@ namespace Crossroads
                         else
                         {
                             crash = true;
-                            Console.WriteLine($"A crash happened!\nHummer was hit at {queue.Peek()[freeWindow + timer]}.");
+                            Console.WriteLine($"A crash happened!\n{queue.Peek()} was hit at {queue.Peek()[freeWindow + timer]}.");
                         }
                     }
                 }
